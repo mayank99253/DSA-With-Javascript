@@ -1,8 +1,7 @@
 function isAnagram(s1, s2) {
     let arr = new Array(26).fill(0);
-
     let result = true;
-
+    
     for(let i = 0 ; i < s1.length ;i++){
         let ascii = s1.charCodeAt(i);
         if(ascii === 32) continue; //skip for space
